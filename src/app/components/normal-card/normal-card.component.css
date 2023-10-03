@@ -1,5 +1,5 @@
 .card {
-    width: 190px;
+    width: 250px;
     background: white;
     padding: .4em;
     border-radius: 6px;
@@ -34,23 +34,12 @@
     font-weight: 600;
     color: rgb(88, 87, 87);
     padding: 7px;
+    font-size: smaller;
   }
   
   .heading:hover {
     cursor: pointer;
   }
   
-  .author {
-    color: gray;
-    font-weight: 400;
-    font-size: 11px;
-    padding-top: 20px;
-  }
+ 
   
-  .name {
-    font-weight: 600;
-  }
-  
-  .name:hover {
-    cursor: pointer;
-  }

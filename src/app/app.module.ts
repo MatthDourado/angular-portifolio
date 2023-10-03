@@ -12,6 +12,8 @@ import { PrincipalCardComponent } from './components/principal-card/principal-ca
 import { TechStackComponent } from './components/tech-stack/tech-stack.component';
 import { NormalCardComponent } from './components/normal-card/normal-card.component';
 import { MenuMobileComponent } from './components/menu.mobile/menu.mobile.component';
+import { HomeComponent } from './pages/home/home.component';
+import { TecnologiasComponent } from './pages/tecnologias/tecnologias.component';
 
 
 
@@ -23,6 +25,8 @@ import { MenuMobileComponent } from './components/menu.mobile/menu.mobile.compon
     TechStackComponent,
     NormalCardComponent,
     MenuMobileComponent,
+    HomeComponent,
+    TecnologiasComponent,
    
   ],
   imports: [

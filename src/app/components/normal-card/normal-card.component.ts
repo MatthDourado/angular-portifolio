@@ -11,8 +11,8 @@ export class NormalCardComponent  {
   photoCover:string =""
   @Input()
   cardTitle:string =""
-  @Input()
-  cardDescription:string =""
+
+  cardDescription:string ="Veja mais..."
 
   
   
