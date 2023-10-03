@@ -1,0 +1,38 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
+
+*{
+ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./assets/img/blue-1634110_1920.png);
+    background-size:cover;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.content{
+    background-color: aliceblue;
+     padding: 1rem;
+  
+  margin: 1rem ;
+  
+  border-radius: 2rem;
+  
+  box-shadow: rgb(0, 0, 0) 2px 6px 50px 2px;
+  transition: all 0.3s ease;
+    
+}
+
+@media screen and (min-width: 620px) {
+    .content{
+    margin: 2rem 5rem;
+    
+    
+  }
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

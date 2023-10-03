@@ -1,0 +1,21 @@
+article{
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768.8px) {
+    
+  menu-mobile{
+
+    display: none;
+  }
+
+}
+@media screen and (max-width: 768.5px) {
+    
+    app-menu{
+  
+      display: none;
+    }
+  
+  }

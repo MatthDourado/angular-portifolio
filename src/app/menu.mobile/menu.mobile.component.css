@@ -1,0 +1,41 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem 1rem;
+  align-items: baseline;
+}
+span a {
+  display: block;
+  color: rgb(49, 49, 49);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  align-self: center;
+}
+
+ul li a {
+  display: block;
+  color: rgb(49, 49, 49);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover:not(.active) {
+  background-color: #111;
+  color: aliceblue;
+}
+
+ul li:first-child {
+  justify-content: flex-start;
+}
+.menu {
+  cursor: pointer;
+  display: block;
+}

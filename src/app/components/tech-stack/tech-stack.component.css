@@ -1,0 +1,14 @@
+section{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    text-align: center;
+    
+}
+img{
+    margin-inline: 15px;
+    width: 4rem;
+
+}
