@@ -11,7 +11,7 @@ import { MenuComponent } from './components/menu/menu.component';
 import { PrincipalCardComponent } from './components/principal-card/principal-card.component';
 import { TechStackComponent } from './components/tech-stack/tech-stack.component';
 import { NormalCardComponent } from './components/normal-card/normal-card.component';
-import { MenuMobileComponent } from './menu.mobile/menu.mobile.component';
+import { MenuMobileComponent } from './components/menu.mobile/menu.mobile.component';
 
 
 

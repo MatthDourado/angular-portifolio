@@ -1,6 +1,9 @@
 article{
   display: flex;
-  justify-content: center;
+  flex-wrap:wrap;
+  justify-content:space-evenly;
+  margin: 2rem;
+
 }
 
 @media screen and (min-width: 768.8px) {
