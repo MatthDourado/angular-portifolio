@@ -12,6 +12,7 @@ import { NormalCardComponent } from './components/normal-card/normal-card.compon
 import { MenuMobileComponent } from './components/menu.mobile/menu.mobile.component';
 import { HomeComponent } from './pages/home/home.component';
 import { TecnologiasComponent } from './pages/tecnologias/tecnologias.component';
+import { ProjetosComponent } from './pages/projetos/projetos.component';
 
 
 
@@ -25,6 +26,7 @@ import { TecnologiasComponent } from './pages/tecnologias/tecnologias.component'
     MenuMobileComponent,
     HomeComponent,
     TecnologiasComponent,
+    ProjetosComponent,
    
   ],
   imports: [

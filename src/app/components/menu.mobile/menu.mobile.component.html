@@ -1,5 +1,5 @@
 <nav>
-    <span><a href="#">Meu Portifolio</a></span>
+    <span><a [routerLink]="['']">Meu Portifolio</a></span>
     <div class="menu" (click)="toggleMenu()" [ngClass]="{'x-button': isButtonX, 'menu-button': !isButtonX}">
       <ng-container *ngIf="isButtonX; else menuIcon">&#10006;</ng-container>
       <ng-template #menuIcon>&#9776;</ng-template>

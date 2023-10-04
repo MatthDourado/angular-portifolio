@@ -1,14 +1,22 @@
 section{
     display: flex;
     justify-content: center;
+    margin: 50px auto;
+  
 }
 
 h2{
+    margin-top: 50px;
     text-align: center;
     
 }
 img{
     margin-inline: 15px;
-    width: 4rem;
+    width: 5rem;
 
 }
+
+img:hover{
+    transform: scale(1.10);
+}
+  
