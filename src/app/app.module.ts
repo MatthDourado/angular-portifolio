@@ -13,6 +13,7 @@ import { MenuMobileComponent } from './components/menu.mobile/menu.mobile.compon
 import { HomeComponent } from './pages/home/home.component';
 import { TecnologiasComponent } from './pages/tecnologias/tecnologias.component';
 import { ProjetosComponent } from './pages/projetos/projetos.component';
+import { ProjetoCardComponent } from './components/projeto-card/projeto-card.component';
 
 
 
@@ -27,6 +28,7 @@ import { ProjetosComponent } from './pages/projetos/projetos.component';
     HomeComponent,
     TecnologiasComponent,
     ProjetosComponent,
+    ProjetoCardComponent,
    
   ],
   imports: [

@@ -1,3 +1,7 @@
+section{
+  display: flex;
+  justify-content: center;
+}
 @media screen and (min-width: 768.8px) {
       
     menu-mobile{

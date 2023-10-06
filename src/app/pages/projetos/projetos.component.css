@@ -1,3 +1,12 @@
+section{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+h2{
+  margin-top: 2rem;
+  text-align: center;
+}
 @media screen and (min-width: 768.8px) {
       
     menu-mobile{
