@@ -15,6 +15,10 @@ export class ProjetoCardComponent {
   resume:string =""
   @Input()
   link:string=""
+  @Input()
+  linkL:string=""
+
+
 
   
 
