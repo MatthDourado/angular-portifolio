@@ -3,6 +3,7 @@
     flex-direction: column;
     gap: 0.5em;
     margin-left: 5px;
+    
 
   }
   
@@ -123,4 +124,10 @@
     fill: white;
   }
 
+
+  @media screen and (max-width:1004px) {
+    .main{
+      margin-top: 10px;
+    }
+  }
  
