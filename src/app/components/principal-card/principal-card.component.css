@@ -2,13 +2,31 @@
   display: flex;
   display: block;
   margin: 0 2rem;
+  background-image: url("src\assets\img\developer.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
 }
-
+.bio {
+  border-radius: 40px;
+  background: #ffffff;
+  box-shadow: 20px 20px 60px #b6b6b6;
+  text-align: center;
+  font-size: 0.9rem;
+  color: rgb(43, 43, 43);
+  text-indent: 1.5rem;
+  padding: 1.6rem;
+  margin-top:2rem;
+  font-size: 18px;
+}
 .name {
   margin: 0;
   font-size: 20px;
   position: relative;
   top: 55px;
+}
+.role{
+  color: rgb(10,113,216)
 }
 
 .role1 {
@@ -22,14 +40,12 @@
   margin-top: 20px;
   font-size: 5em;
 }
-.bio {
-  text-align: center;
-  font-size: 0.9rem;
-  color: rgb(43, 43, 43);
-  text-indent: 1.5rem;
-}
+
 
 @media screen and (max-width: 496px) {
+ .bio{
+  font-size: 12px;
+ }
   .role {
     text-align: center;
   }
@@ -46,4 +62,16 @@
     margin-top: 1.8rem;
     font-size: 3em;
   }
+}
+
+@media screen and (max-width:325px) {
+  .bio{
+    position: relative;
+    right: 23px;
+    width:240px;
+    font-size: 12px;
+    margin-top: 70px;
+  }
+ 
+  
 }

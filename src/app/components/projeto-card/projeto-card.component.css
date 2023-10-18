@@ -2,6 +2,9 @@ article{
     display: flex;
     
 }
+button{
+  margin-left: 2px;
+}
 .card {
     margin: 2rem;
     width: 20rem;

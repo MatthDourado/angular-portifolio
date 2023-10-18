@@ -14,6 +14,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { TecnologiasComponent } from './pages/tecnologias/tecnologias.component';
 import { ProjetosComponent } from './pages/projetos/projetos.component';
 import { ProjetoCardComponent } from './components/projeto-card/projeto-card.component';
+import { SocialButtonComponent } from './components/social-button/social-button.component';
 
 
 
@@ -29,6 +30,7 @@ import { ProjetoCardComponent } from './components/projeto-card/projeto-card.com
     TecnologiasComponent,
     ProjetosComponent,
     ProjetoCardComponent,
+    SocialButtonComponent,
    
   ],
   imports: [
